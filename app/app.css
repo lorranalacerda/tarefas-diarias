@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #bb927c;
+    text-align: center;
+    padding: 60px;
+}
+
+.tudo{
+    background-color: #e8dbd3;
+    border-radius: 5px;
+    padding: 5%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-top: 60px;
+    color: #552c16;
+}
+
+input{
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #6e3813;
+    width: 70%;
+}
+
+input ::placeholder {
+    color: #814b19e3;
+}
+
+.botao {
+    background-color: #552c16;
+    color: #d8b09b;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 12px auto; 
+    font-weight: bold;
+    width: 30%; 
+    text-align: center; 
+    padding: 10px;
+}
+
+.botao:hover {
+    background-color: #8d4925;
+    color: white;
+    transition: 0.3s
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    text-align: center; 
+}
+
+li {
+    border-bottom: 1px solid #8d492583;
+    padding: 5px;
+    width: 70%;
+    margin: 0 auto; /* Centraliza o li dentro do ul */
+}
+
+@media (max-width: 500px) {
+    body, input, button{
+        font-size: 15px;
+    }
+}
